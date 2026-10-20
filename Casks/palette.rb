@@ -2,12 +2,12 @@ cask "palette" do
   version "1.1.0"
   sha256 "cec630b6dddb1ef705b33fabcd0cc2132dbabd8f404ab327547f1303fa3e06de"
 
-  url "https://github.com/praddy-31/palette/releases/download/v#{version}/Palette-#{version}-arm64.dmg"
+  url "https://github.com/praddy-31/Palette/releases/download/v#{version}/Palette-#{version}-arm64.dmg"
   name "Palette"
   desc "Theme switcher that restyles the whole desktop from one palette file"
-  homepage "https://github.com/praddy-31/palette"
+  homepage "https://github.com/praddy-31/Palette"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "Palette.app"
