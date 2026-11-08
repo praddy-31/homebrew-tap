@@ -1,6 +1,6 @@
 cask "palette" do
-  version "1.1.0"
-  sha256 "cec630b6dddb1ef705b33fabcd0cc2132dbabd8f404ab327547f1303fa3e06de"
+  version "1.2.0"
+  sha256 "0a1f953aebef7a1a1be182b948b436f3d0269f763d922e5a8c10b75484fbbb7b"
 
   url "https://github.com/praddy-31/Palette/releases/download/v#{version}/Palette-#{version}-arm64.dmg"
   name "Palette"
